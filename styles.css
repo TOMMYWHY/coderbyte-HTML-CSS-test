@@ -1,0 +1,179 @@
+._font_g{
+    font-family: Quicksand;
+}
+
+._center{
+    text-align: center;
+}
+
+._banner_text{
+    top:25%;
+}
+._banner_wapper{
+    /* background-image: "./assets/main-banner.png"; */
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}
+
+.Need-a-dog-sitter {
+    margin: 0 93px 5px 0;
+    font-family: Quicksand;
+    font-size: 40.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.Find-a-trusted-sitte {
+    margin: 5px 0 12.5px 2px;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+
+.btn-primary{
+    background-color: #de6c17 ;
+    border-color: #de6c17 ;
+    font-size: 16px;
+
+}
+._banner_wapper{
+    position: relative;
+}
+._wave{
+    position: absolute;
+    /* background-color: #de6c17; */
+    left: 0;
+    bottom: 0;
+    height:62px;
+    width: 100%;
+}
+.lead{
+    font-size: 1.8rem ;
+    color: #5e6e66;
+    line-height: 1.42;
+}
+.Local-trusted-pet{
+    width: 70% ;
+}
+.card-text{
+    color: #5e6e66 ;
+
+}
+
+.learnMore{
+    text-decoration: none;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+    padding: 1.5rem;
+}
+.learnMore:hover{
+    color: #de6c17;
+}
+._footer{
+    height: 400px;
+}
+.card{
+    border-radius: .65rem;
+}
+._card_img{
+    overflow: hidden;
+    width: 100%;
+    border-radius: .65rem 0.65rem 0 0;
+
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .container{
+        padding-right: var(--bs-gutter-x, 0 rem);
+        padding-left: var(--bs-gutter-x, 0 rem);
+}
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    ._card_img{
+        width: 100%;
+        flex: 0 0 50%;
+        border-radius: .65rem  0  0 0.65rem;
+        
+    }
+    .card-body{
+        flex: 0 0 50%;
+    }
+    .Local-trusted-pet{width: 100%;}
+    ._banner_text{
+        top: 5%;
+        left: 5%;
+    }
+    .bd-placeholder-img{
+        
+    }
+    .Find-a-trusted-sitte {
+        margin: 5px 150px 12.5px 2px;
+    }
+    ._wave{
+        position: absolute;
+        /* background-color: #de6c17; */
+        left: 0;
+        bottom: 0;
+        height:32px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+            padding-right: var(--bs-gutter-x, 0 rem);
+            padding-left: var(--bs-gutter-x, 0 rem);
+    }
+    ._banner_text{
+        top: -5%;
+        left: 5%;
+    }
+    .Need-a-dog-sitter{ font-size: 18px;}
+    .Find-a-trusted-sitte{font-size: 8px;}
+    ._wave{
+        position: absolute;
+        /* background-color: #de6c17; */
+        left: 0;
+        bottom: 0;
+        height:22px;
+        width: 100%;
+    }
+    .lead {
+        font-size: 1.5rem;
+        color: #5e6e66;
+        line-height: 1.42;
+    }
+
+}
